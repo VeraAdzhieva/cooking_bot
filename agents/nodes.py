@@ -5,7 +5,7 @@ from langchain_core.messages import AIMessage
 from langchain_openai import ChatOpenAI
 from langgraph.graph import MessagesState
 from langgraph.prebuilt import create_react_agent
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 
 def load_prompt(filename: str) -> str:
