@@ -19,6 +19,9 @@ class RouterDecision(BaseModel):
     reason: str
 
 def create_router_node(llm: ChatOpenAI):
+    """
+    Создание нода роутера.
+    """
     router_llm = llm.with_structured_output(RouterDecision)
     system_prompt = load_prompt("router.txt")
     
@@ -36,14 +39,23 @@ def create_router_node(llm: ChatOpenAI):
     return router_node
 
 def create_recipe_node(llm, tools):
+    """
+    Создание нода по рецептам.
+    """
     prompt = load_prompt("recipe_agent.txt")
     return create_react_agent(llm, tools, prompt=prompt)
 
 def create_planner_node(llm, tools):
+    """
+    Создание нода по планированию меню.
+    """
     prompt = load_prompt("planner_agent.txt")
     return create_react_agent(llm, tools, prompt=prompt)
 
 
 def reject_node(state: MessagesState):
+    """
+    Создание нода по отказу.
+    """
     msg = AIMessage(content="Я специализируюсь только на кулинарии!")
     return {"messages": [msg]}

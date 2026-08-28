@@ -1,9 +1,9 @@
 import os
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, MessagesState, END
-from langchain_mcp_adapters.client import MultiServerMCPClient
 from agents.nodes import create_router_node, create_recipe_node, create_planner_node, reject_node
 from utils.logger import setup_logger
+from tools.mcp_loader import load_mcp_tools
 
 logger = setup_logger()
 graph_app = None
@@ -12,34 +12,20 @@ class CustomState(MessagesState):
     next_nodes: list[str]
 
 async def setup_graph():
+    """
+    Компиляция графа.
+    """
     global graph_app
 
-    #async_http_client = httpx.AsyncClient(
-    #    proxy="socks5://127.0.0.1:10808",
-    #    trust_env=False
-    #)
-
-    logger.info("Инициализация LLM...")
+    logger.info("Инициализация LLM")
     llm = ChatOpenAI(
         api_key=os.getenv("LLM_API_KEY"),
         base_url=os.getenv("LLM_HOST"),
         model=os.getenv("LLM_MODEL"),
-        temperature=0.0,
-      #  http_async_client=async_http_client
+        temperature=0.0
     )
     
-    # Загружаем ВСЕ инструменты из MCP
-    logger.info("Загрузка инструментов MCP...")
-    mcp_config = {
-        "my_local_mcp": {
-            "transport": "http",
-            "url": os.getenv("MCP_HOST"), 
-            "headers": {"Authorization": f"Bearer {os.getenv('MCP_API_KEY')}"}
-        }
-    }
-    
-    client = MultiServerMCPClient(mcp_config)
-    all_tools = await client.get_tools()
+    all_tools = await load_mcp_tools()
 
     logger.info("Создание узлов графа (все инструменты доступны всем агентам)")
     
@@ -71,9 +57,12 @@ async def setup_graph():
     graph.add_edge("reject", END)
     
     graph_app = graph.compile()
-    logger.info("LangGraph успешно скомпилирован!")
+    logger.info("LangGraph успешно скомпилирован")
 
 def get_graph():
+    """
+    Получает граф.
+    """
     if graph_app is None:
         raise RuntimeError("Граф не инициализирован. Вызовите setup_graph() первым.")
     return graph_app

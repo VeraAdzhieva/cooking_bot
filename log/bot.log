@@ -3,3 +3,614 @@
 2026-08-25 13:36:22 | ERROR    | bot | Критическая ошибка: Переменная POLZA_AI_API_KEY не найдена в .env
 2026-08-25 13:48:39 | ERROR    | bot | Критическая ошибка: Переменная POLZA_AI_API_KEY не найдена в .env
 2026-08-26 18:31:11 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 11:48:16 | INFO     | bot | Инициализация LLM...
+2026-08-27 11:48:43 | INFO     | bot | Инициализация LLM...
+2026-08-27 11:48:51 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 11:49:24 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 11:49:33 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 11:51:59 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 11:52:16 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 11:52:21 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 11:52:21 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 11:53:39 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 11:54:16 | INFO     | bot | Инициализация LLM...
+2026-08-27 11:54:17 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 11:54:17 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 11:54:17 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 11:54:17 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 11:55:27 | INFO     | bot | Инициализация LLM...
+2026-08-27 11:55:30 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 11:55:32 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 11:55:32 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 11:55:35 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 11:56:34 | INFO     | bot | Инициализация LLM...
+2026-08-27 11:56:41 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 11:56:42 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 11:56:42 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 11:56:45 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 11:56:49 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:00:56 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:00:57 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:00:57 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 12:00:57 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 12:00:57 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 12:00:58 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:01:37 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:01:38 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:01:38 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 12:01:38 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 12:01:38 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 12:01:39 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:22:50 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:24:04 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:24:44 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:24:44 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:24:45 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 12:24:45 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 12:24:45 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 12:24:45 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:31:43 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:31:43 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:31:44 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 12:31:44 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 12:31:44 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 12:31:44 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:32:37 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:32:57 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:33:21 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:33:21 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:33:21 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 12:33:21 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 12:33:21 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 12:33:22 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:35:16 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:35:17 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:35:17 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 12:35:17 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 12:35:17 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 12:35:17 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 12:35:30 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:37:44 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:42:34 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:43:08 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:44:21 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:45:22 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:45:38 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:47:07 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:48:04 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:48:34 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:48:35 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:51:52 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:51:52 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:52:27 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:53:10 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:53:58 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:55:45 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:55:46 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 12:59:47 | INFO     | bot | Инициализация LLM...
+2026-08-27 12:59:47 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:00:49 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:00:49 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:03:13 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:03:22 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:05:50 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:05:50 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:07:42 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:07:43 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:07:43 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 13:07:43 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 13:07:43 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 13:07:44 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 13:08:03 | INFO     | bot | Обработка сообщения от чата 833172037: 'Привет какая сегодня погода'
+2026-08-27 13:08:05 | ERROR    | bot | Ошибка при обработке сообщения: Message text is empty
+Traceback (most recent call last):
+  File "C:\Projects\cooking_bot\bot\handlers.py", line 44, in handle_message
+    await update.message.reply_text(last_message.content)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_message.py", line 2228, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Message text is empty
+2026-08-27 13:09:18 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:09:18 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:09:18 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 13:09:18 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 13:09:18 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 13:09:19 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 13:19:12 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:19:17 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:19:21 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 13:19:21 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 13:19:27 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 13:19:28 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 13:20:36 | INFO     | bot | Обработка сообщения от чата 833172037: 'Привет, какая сегодня погода в москве'
+2026-08-27 13:21:29 | ERROR    | bot | Ошибка при обработке сообщения: Message text is empty
+Traceback (most recent call last):
+  File "c:\Projects\cooking_bot\bot\handlers.py", line 44, in handle_message
+    await update.message.reply_text(last_message.content)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_message.py", line 2228, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Message text is empty
+2026-08-27 13:24:30 | INFO     | bot | Обработка сообщения от чата 833172037: 'Кака погода сегодня в Москве'
+2026-08-27 13:24:57 | ERROR    | bot | Ошибка при обработке сообщения: Message text is empty
+Traceback (most recent call last):
+  File "c:\Projects\cooking_bot\bot\handlers.py", line 44, in handle_message
+    await update.message.reply_text(last_message.content)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_message.py", line 2228, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Message text is empty
+2026-08-27 13:26:15 | INFO     | bot | Обработка сообщения от чата 833172037: 'Кака погода сегодня в Москве'
+2026-08-27 13:28:09 | ERROR    | bot | Ошибка при обработке сообщения: Message text is empty
+Traceback (most recent call last):
+  File "c:\Projects\cooking_bot\bot\handlers.py", line 44, in handle_message
+    await update.message.reply_text(last_message.content)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_message.py", line 2228, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Message text is empty
+2026-08-27 13:32:12 | INFO     | bot | Обработка сообщения от чата 833172037: 'Кака погода сегодня в Москве'
+2026-08-27 13:32:32 | ERROR    | bot | Ошибка при обработке сообщения: Message text is empty
+Traceback (most recent call last):
+  File "c:\Projects\cooking_bot\bot\handlers.py", line 44, in handle_message
+    await update.message.reply_text(last_message.content)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_message.py", line 2228, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 3150, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 1138, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Message text is empty
+2026-08-27 13:33:28 | INFO     | bot | Обработка сообщения от чата 833172037: 'Кака погода сегодня в Москве'
+2026-08-27 13:42:30 | INFO     | bot | Инициализация LLM...
+2026-08-27 13:42:36 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 13:42:42 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-27 13:42:42 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)...
+2026-08-27 13:42:56 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 13:42:57 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 13:43:11 | INFO     | bot | Обработка сообщения от чата 833172037: 'Кака погода сегодня в Москве'
+2026-08-27 16:29:00 | INFO     | bot | Инициализация LLM...
+2026-08-27 16:29:05 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 16:29:08 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 16:38:45 | INFO     | bot | Инициализация LLM...
+2026-08-27 16:38:50 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 16:38:57 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 16:39:14 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 16:39:14 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 16:39:43 | INFO     | bot | Обработка сообщения от чата 833172037: 'Какая погода в Астрахани'
+2026-08-27 16:40:08 | INFO     | bot | Роутер направляет запрос в узлы: ['reject']
+2026-08-27 16:40:22 | INFO     | bot | Ответ отправлен
+2026-08-27 16:40:40 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь рецепт Борщ'
+2026-08-27 16:40:57 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 16:40:57 | ERROR    | bot | Ошибка при обработке сообщения: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+Traceback (most recent call last):
+  File "c:\Projects\cooking_bot\bot\handlers.py", line 36, in handle_message
+    result = await app.ainvoke({"messages": context.chat_data["history"]})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 3437, in astream
+    while loop.tick():
+          ^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_loop.py", line 612, in tick
+    self.tasks = prepare_next_tasks(
+                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_algo.py", line 491, in prepare_next_tasks
+    if task := prepare_single_task(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_algo.py", line 637, in prepare_single_task
+    val = _proc_input(
+          ^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_algo.py", line 1386, in _proc_input
+    val = proc.mapper(val)
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\graph\state.py", line 1746, in _coerce_state
+    return schema(**input)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\load\serializable.py", line 136, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_openai\chat_models\base.py", line 1441, in validate_environment
+    self.root_async_client = openai.AsyncOpenAI(
+                             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\openai\_client.py", line 947, in __init__
+    raise OpenAIError(
+openai.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+Before task with name 'recipes' and path '('__pregel_pull', 'recipes')'
+2026-08-27 16:41:40 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь рецепт Борщ'
+2026-08-27 16:42:14 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 16:42:18 | ERROR    | bot | Ошибка при обработке сообщения: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+Traceback (most recent call last):
+  File "c:\Projects\cooking_bot\bot\handlers.py", line 36, in handle_message
+    result = await app.ainvoke({"messages": context.chat_data["history"]})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 3437, in astream
+    while loop.tick():
+          ^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_loop.py", line 612, in tick
+    self.tasks = prepare_next_tasks(
+                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_algo.py", line 491, in prepare_next_tasks
+    if task := prepare_single_task(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_algo.py", line 637, in prepare_single_task
+    val = _proc_input(
+          ^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_algo.py", line 1386, in _proc_input
+    val = proc.mapper(val)
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\graph\state.py", line 1746, in _coerce_state
+    return schema(**input)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\load\serializable.py", line 136, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_openai\chat_models\base.py", line 1441, in validate_environment
+    self.root_async_client = openai.AsyncOpenAI(
+                             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\openai\_client.py", line 947, in __init__
+    raise OpenAIError(
+openai.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+Before task with name 'recipes' and path '('__pregel_pull', 'recipes')'
+2026-08-27 16:44:16 | INFO     | bot | Инициализация LLM...
+2026-08-27 16:44:20 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 16:44:24 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 16:44:33 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 16:44:33 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 16:44:45 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь рецепт Борщ'
+2026-08-27 16:44:58 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 16:45:12 | INFO     | bot | Ответ отправлен
+2026-08-27 16:45:53 | INFO     | bot | Обработка сообщения от чата 833172037: 'Спланируй мне меню на 1500 ккал на каждый день и расскажи какой сегодня день'
+2026-08-27 16:45:57 | INFO     | bot | Роутер направляет запрос в узлы: ['planner']
+2026-08-27 16:46:09 | INFO     | bot | Ответ отправлен
+2026-08-27 16:46:56 | INFO     | bot | Инициализация LLM...
+2026-08-27 16:46:56 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 16:46:56 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 16:46:56 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 16:46:57 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 16:47:24 | INFO     | bot | Обработка сообщения от чата 833172037: 'Спланируймне меню на неделю и дообавь рецепт Борщ'
+2026-08-27 16:47:26 | INFO     | bot | Роутер направляет запрос в узлы: ['planner', 'recipes']
+2026-08-27 16:47:26 | INFO     | bot | Ответ отправлен
+2026-08-27 16:54:44 | INFO     | bot | Инициализация LLM...
+2026-08-27 16:54:44 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 16:54:45 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 16:54:45 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 16:54:45 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 16:55:31 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь рецепт в десерты Шоколадные кексы
+какао 50гр
+банан 2шт
+разрыхлитель 5 гр
+молоко 25 мл'
+2026-08-27 16:55:34 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 16:55:35 | ERROR    | bot | Ошибка при обработке сообщения: Error code: 400 - {'error': {'code': 'BAD_REQUEST', 'message': 'No endpoints found that support tool use. Try disabling "get_server_info". To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection'}, 'trace_id': '4404b42e-7e6f-4ca0-97f1-9b35a8893c7a'}
+Traceback (most recent call last):
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_openai\chat_models\base.py", line 2179, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\openai\_legacy_response.py", line 386, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2907, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\openai\_base_client.py", line 1995, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\openai\_base_client.py", line 1780, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'code': 'BAD_REQUEST', 'message': 'No endpoints found that support tool use. Try disabling "get_server_info". To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection'}, 'trace_id': '4404b42e-7e6f-4ca0-97f1-9b35a8893c7a'}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Projects\cooking_bot\bot\handlers.py", line 36, in handle_message
+    result = await app.ainvoke({"messages": context.chat_data["history"]})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\_internal\_runnable.py", line 756, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 4090, in ainvoke
+    async for chunk in self.astream(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\main.py", line 3440, in astream
+    async for _ in runner.atick(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_runner.py", line 396, in atick
+    await arun_with_retry(
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\pregel\_retry.py", line 744, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\_internal\_runnable.py", line 756, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\_internal\_runnable.py", line 513, in ainvoke
+    ret = await asyncio.create_task(coro, context=context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 707, in acall_model
+    response = cast(AIMessage, await static_model.ainvoke(model_input, config))  # type: ignore[union-attr]
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\runnables\base.py", line 3496, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\runnables\base.py", line 6027, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\language_models\chat_models.py", line 500, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1877, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1835, in agenerate
+    raise exceptions[0]
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_core\language_models\chat_models.py", line 2168, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_openai\chat_models\base.py", line 2184, in _agenerate
+    _handle_openai_bad_request(e)
+  File "C:\Users\pozit\AppData\Local\pypoetry\Cache\virtualenvs\cooking-bot-uQBQ32bm-py3.12\Lib\site-packages\langchain_openai\chat_models\base.py", line 642, in _handle_openai_bad_request
+    raise OpenAIInvalidRequestError(
+langchain_openai.chat_models.base.OpenAIInvalidRequestError: Error code: 400 - {'error': {'code': 'BAD_REQUEST', 'message': 'No endpoints found that support tool use. Try disabling "get_server_info". To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection'}, 'trace_id': '4404b42e-7e6f-4ca0-97f1-9b35a8893c7a'}
+During task with name 'agent' and id 'ff45aa18-a6ac-1bbf-5d89-7a5246ba2f7d'
+During task with name 'recipes' and id '5b3bd6b6-b133-8fae-0f4d-67840923292e'
+2026-08-27 16:57:44 | INFO     | bot | Инициализация LLM...
+2026-08-27 16:57:45 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 16:57:45 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 16:57:45 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 16:57:45 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 16:58:03 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь рецепт в десерты Шоколадные кексы
+какао 50гр
+банан 2шт
+разрыхлитель 5 гр
+молоко 25 мл'
+2026-08-27 16:58:11 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 16:58:37 | INFO     | bot | Ответ отправлен
+2026-08-27 17:05:20 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь два рецепта 
+1. Каша монастырская овсянка 
+на двух человек 
+120 гр овсянки (320ккал на 100 гр)
+смородина замороженная 40гр
+шоколадная паста 1 чайная ложка (370ккал на 100 гр)
+молоко 100 мл (41ккал на 100мл)
+Сварить овсянку с вводой и молоком, добавить ягоды и шоколадную пасту. Варить 25 мин 
+2. Гречка с говядиной и овощами (ужин)
+гречка 150 гр
+говядина мякоть 500 гр
+морковь 150 гр
+лук 150 гр
+болагрский перец 100гр
+помидор 150 гр
+масло подсолнечное 1 ст л
+соль, перец по вкусу 
+Жарить на сильном огне говядину, потом добавить лук, морковь, перец и помидор. Тушить 1-2 часа. Добавить гречку и воду. Тушить до готовности гречки.'
+2026-08-27 17:05:30 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 17:06:12 | INFO     | bot | Ответ отправлен
+2026-08-27 17:10:14 | INFO     | bot | Обработка сообщения от чата 833172037: 'Можешь мне спланировать план на один день на 1600 ккал на 1 человека'
+2026-08-27 17:10:29 | INFO     | bot | Роутер направляет запрос в узлы: ['planner']
+2026-08-27 17:51:34 | INFO     | bot | Инициализация LLM...
+2026-08-27 17:51:35 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-27 17:51:35 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-27 17:51:35 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-27 17:51:35 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-27 17:51:43 | INFO     | bot | Обработка сообщения от чата 833172037: 'Можешь мне спланировать план на один день на 1600 ккал на 1 человека'
+2026-08-27 17:51:54 | INFO     | bot | Роутер направляет запрос в узлы: ['planner']
+2026-08-27 17:52:44 | INFO     | bot | Ответ отправлен
+2026-08-27 17:56:49 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь рецепт в обед:
+Фаршированные перцы
+4 порции
+4 болгарских перца крупных
+фарш индейки 450 гр
+помидор 150 гр
+зелень по вкусу 
+греческий йогурт 2 столовых ложки (45 ккал на 100 гр)
+Фарш смешать с помидором , зеленью и греческим йогуртом. Начинить перцы. В духовке выпекать 30 минут при 180 градусах'
+2026-08-27 17:56:57 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 17:58:30 | INFO     | bot | Ответ отправлен
+2026-08-27 18:00:06 | INFO     | bot | Обработка сообщения от чата 833172037: 'Отредактируй рецепт Каша монастырская овсянка 
+измени количество овсянки на 150 гр'
+2026-08-27 18:00:25 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-27 18:00:56 | INFO     | bot | Ответ отправлен
+2026-08-28 11:37:57 | INFO     | bot | Инициализация LLM...
+2026-08-28 11:37:57 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-28 11:37:58 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-28 11:37:58 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-28 11:37:58 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-28 11:38:25 | INFO     | bot | Обработка сообщения от чата 833172037: 'привет, как у тебя сегодня деола?'
+2026-08-28 11:39:57 | INFO     | bot | Роутер направляет запрос в узлы: ['reject']
+2026-08-28 11:39:57 | INFO     | bot | Ответ отправлен
+2026-08-28 11:40:28 | INFO     | bot | Обработка сообщения от чата 833172037: 'Измени в шоколадных кексах количество какао на 100 гр'
+2026-08-28 11:40:36 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-28 11:41:43 | INFO     | bot | Ответ отправлен
+2026-08-28 11:42:24 | INFO     | bot | Обработка сообщения от чата 833172037: 'Составь план на один день на одного человека на 1600 ккал'
+2026-08-28 11:42:33 | INFO     | bot | Роутер направляет запрос в узлы: ['planner']
+2026-08-28 11:44:21 | INFO     | bot | Ответ отправлен
+2026-08-28 11:45:45 | INFO     | bot | Обработка сообщения от чата 833172037: 'Гречка с говядиной и овощами (ужин)
+гречка 150 гр
+говядина мякоть 500 гр
+морковь 150 гр
+лук 150 гр
+болагрский перец 100гр
+помидор 150 гр
+масло подсолнечное 1 ст л
+соль, перец по вкусу 
+Жарить на сильном огне говядину, потом добавить лук, морковь, перец и помидор. Тушить 1-2 часа. Добавить гречку и воду. Тушить до готовности гречки.'
+2026-08-28 11:45:54 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-28 11:48:06 | INFO     | bot | Ответ отправлен
+2026-08-28 11:49:58 | INFO     | bot | Обработка сообщения от чата 833172037: 'да, обнови'
+2026-08-28 11:50:06 | INFO     | bot | Роутер направляет запрос в узлы: ['planner']
+2026-08-28 11:50:43 | INFO     | bot | Ответ отправлен
+2026-08-28 11:57:18 | INFO     | bot | Инициализация LLM...
+2026-08-28 11:57:19 | INFO     | bot | Загрузка инструментов MCP...
+2026-08-28 11:57:19 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-28 11:57:19 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-28 11:57:19 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-28 11:59:29 | INFO     | bot | Обработка сообщения от чата 833172037: 'Добавь в ужин 
+Греческий йогурт с чиа 
+Греческий йогурт 250 гр 
+Семена чиа 1 ч ложка
+Белевская пастила 30 гр (300ккал на 100 гр ) 
+И составь план на 1 день на 2 человек для каждого 1600 ккал'
+2026-08-28 11:59:52 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes', 'planner']
+2026-08-28 12:01:57 | INFO     | bot | Ответ отправлен
+2026-08-28 12:53:18 | INFO     | bot | Инициализация LLM
+2026-08-28 12:53:18 | INFO     | bot | Загрузка инструментов MCP
+2026-08-28 12:53:19 | INFO     | bot | Загружено инструментов из MCP: 52
+2026-08-28 12:53:19 | INFO     | bot | Создание узлов графа (все инструменты доступны всем агентам)
+2026-08-28 12:53:19 | INFO     | bot | LangGraph успешно скомпилирован!
+2026-08-28 12:53:19 | INFO     | bot | Бот запущен и слушает сообщения...
+2026-08-28 12:53:37 | INFO     | bot | Обработка сообщения от чата 833172037: 'сколько градусов в москве?'
+2026-08-28 12:53:45 | INFO     | bot | Роутер направляет запрос в узлы: ['reject']
+2026-08-28 12:53:45 | INFO     | bot | Ответ отправлен
+2026-08-28 12:58:50 | INFO     | bot | Обработка сообщения от чата 833172037: 'добавь рецепт в завтраки 
+Бутерброды с ветчиной 
+рецепт на 1 персону
+хлеб 2 куска по 45 гр (200ккал на 100 гр)
+ветчина 50 гр (100ккал на 100 гр)
+соленые огурцы 1 шт
+халапеньо 2 кружочка
+помидор 30 гр
+горчица 10 гр (340ккал на 100 гр)
+сыр 20гр (360ккал на 100 гр)
+Всё нарезать. Подогреть в грильнице на 240 градусах 5 минут для расплавления сыра'
+2026-08-28 12:59:12 | INFO     | bot | Роутер направляет запрос в узлы: ['recipes']
+2026-08-28 12:59:38 | INFO     | bot | Ответ отправлен

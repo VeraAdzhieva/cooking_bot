@@ -9,10 +9,7 @@ from bot.handlers import start, handle_message
 from agents.graph import setup_graph
 from utils.logger import setup_logger
 
-#os.environ["ALL_PROXY"] = "socks5://127.0.0.1:10808"
-#os.environ["HTTP_PROXY"] = "socks5://127.0.0.1:10808"
-#os.environ["HTTPS_PROXY"] = "socks5://127.0.0.1:10808"
-
+# для обхода ошибок доступа
 os.environ.pop("HTTP_PROXY", None)
 os.environ.pop("HTTPS_PROXY", None)
 os.environ.pop("ALL_PROXY", None)
@@ -20,8 +17,8 @@ os.environ.pop("http_proxy", None)
 os.environ.pop("https_proxy", None)
 os.environ.pop("all_proxy", None)
 
-# 2. САМОЕ ВАЖНОЕ: Запрещаем использовать прокси для локальных адресов.
-# Если ваш MCP-сервер работает на localhost или 127.0.0.1, он подключится напрямую.
+# Запрет использовать прокси для локальных адресов.
+# Если MCP-сервер работает на localhost или 127.0.0.1, он подключится напрямую.
 os.environ["NO_PROXY"] = "localhost,127.0.0.1,::1,0.0.0.0"
 os.environ["no_proxy"] = "localhost,127.0.0.1,::1,0.0.0.0"
 
