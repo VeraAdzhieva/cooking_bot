@@ -1,32 +1,55 @@
 import asyncio
+import sys
 import os
 from dotenv import load_dotenv
-from telegram.ext import Application
+from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from telegram.request import HTTPXRequest
 
 from bot.handlers import start, handle_message
-#from agents.graph import setup_graph
+from agents.graph import setup_graph
 from utils.logger import setup_logger
+
+#os.environ["ALL_PROXY"] = "socks5://127.0.0.1:10808"
+#os.environ["HTTP_PROXY"] = "socks5://127.0.0.1:10808"
+#os.environ["HTTPS_PROXY"] = "socks5://127.0.0.1:10808"
+
+os.environ.pop("HTTP_PROXY", None)
+os.environ.pop("HTTPS_PROXY", None)
+os.environ.pop("ALL_PROXY", None)
+os.environ.pop("http_proxy", None)
+os.environ.pop("https_proxy", None)
+os.environ.pop("all_proxy", None)
+
+# 2. САМОЕ ВАЖНОЕ: Запрещаем использовать прокси для локальных адресов.
+# Если ваш MCP-сервер работает на localhost или 127.0.0.1, он подключится напрямую.
+os.environ["NO_PROXY"] = "localhost,127.0.0.1,::1,0.0.0.0"
+os.environ["no_proxy"] = "localhost,127.0.0.1,::1,0.0.0.0"
+
+if sys.platform == 'win32':
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 logger = setup_logger()
 
-async def main():
+async def async_init():
+    """
+    Инициализация.
+    """
     load_dotenv()
+    await setup_graph()
+    return os.getenv("PROXY_URL"), os.getenv("TELEGRAM_BOT_API")
 
-   # await setup_graph()
+def main():
+    proxy_url, token_t = asyncio.run(async_init())
 
-    proxy_url = os.getenv("PROXY_URL")
-    token_t = os.getenv("TELEGRAM_BOT_API")
-    
     request = HTTPXRequest(proxy=proxy_url) if proxy_url else HTTPXRequest()
     app = Application.builder().token(token_t).request(request).build()
     
-    # 3. Регистрация хендлеров
-    app.add_handler(start)
-    app.add_handler(handle_message)
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     
     logger.info("Бот запущен и слушает сообщения...")
-    await app.run_polling()
+    
+    app.run_polling()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
