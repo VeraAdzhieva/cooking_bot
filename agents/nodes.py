@@ -43,7 +43,7 @@ def create_router_node(
         ]
         decision: RouterDecision = router_llm.invoke(messages_with_system)
 
-        valid_intents = [i for i in decision.intent if i != "reject"]
+        valid_intents: list[str] = [i for i in decision.intent if i != "reject"]
 
         if not valid_intents:
             return {"next_nodes": ["reject"]}
