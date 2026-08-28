@@ -20,7 +20,7 @@ class CustomState(MessagesState):
     next_nodes: list[str]
 
 
-async def setup_graph():
+async def setup_graph() -> None:
     """
     Компиляция графа.
     """
@@ -69,7 +69,7 @@ async def setup_graph():
     logger.info("LangGraph успешно скомпилирован")
 
 
-def get_graph():
+def get_graph() -> StateGraph:
     """
     Получает граф.
     """
