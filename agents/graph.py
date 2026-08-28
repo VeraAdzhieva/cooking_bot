@@ -47,7 +47,7 @@ async def setup_graph() -> None:
 
     graph.set_entry_point("router")
 
-    def route_decision(state: CustomState):
+    def route_decision(state: CustomState) -> dict:
         nodes_to_visit = state.get("next_nodes", ["reject"])
         if isinstance(nodes_to_visit, str):
             nodes_to_visit = [nodes_to_visit]

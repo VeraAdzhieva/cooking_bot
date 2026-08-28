@@ -1,38 +1,43 @@
 import os
-from typing import Literal
+from typing import Callable, Literal, Sequence
 
+from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import AIMessage
-from langchain_openai import ChatOpenAI
+from langchain_core.tools import BaseTool
 from langgraph.graph import MessagesState
+from langgraph.graph.state import CompiledStateGraph
 from langgraph.prebuilt import create_react_agent
 from pydantic import BaseModel
 
 
 def load_prompt(filename: str) -> str:
     """
-    Загрузка промптов из файлов.
+    Загрузка промптов из файлов относительно текущей директории.
     """
-    with open(
-        os.path.join(os.path.dirname(__file__), "..", "prompts", filename),
-        "r",
-        encoding="utf-8",
-    ) as f:
+    prompt_path = os.path.join(os.path.dirname(__file__), "..", "prompts", filename)
+    with open(prompt_path, "r", encoding="utf-8") as f:
         return f.read().strip()
 
 
 class RouterDecision(BaseModel):
+    """
+    Структура ответа роутера, валидируемая через Pydantic.
+    """
+
     intent: list[Literal["recipes", "planner", "reject"]]
     reason: str
 
 
-def create_router_node(llm: ChatOpenAI):
+def create_router_node(
+    llm: BaseChatModel,
+) -> Callable[[MessagesState], dict[str, list[str]]]:
     """
-    Создание нода роутера.
+    Создание нода роутера для определения намерений пользователя.
     """
     router_llm = llm.with_structured_output(RouterDecision)
     system_prompt = load_prompt("router.txt")
 
-    def router_node(state: MessagesState):
+    def router_node(state: MessagesState) -> dict[str, list[str]]:
         messages_with_system = [{"role": "system", "content": system_prompt}] + state[
             "messages"
         ]
@@ -48,7 +53,9 @@ def create_router_node(llm: ChatOpenAI):
     return router_node
 
 
-def create_recipe_node(llm, tools):
+def create_recipe_node(
+    llm: BaseChatModel, tools: Sequence[BaseTool]
+) -> CompiledStateGraph:
     """
     Создание нода по рецептам.
     """
@@ -56,7 +63,9 @@ def create_recipe_node(llm, tools):
     return create_react_agent(llm, tools, prompt=prompt)
 
 
-def create_planner_node(llm, tools):
+def create_planner_node(
+    llm: BaseChatModel, tools: Sequence[BaseTool]
+) -> CompiledStateGraph:
     """
     Создание нода по планированию меню.
     """
@@ -64,7 +73,7 @@ def create_planner_node(llm, tools):
     return create_react_agent(llm, tools, prompt=prompt)
 
 
-def reject_node(state: MessagesState):
+def reject_node(state: MessagesState) -> dict[str, list[AIMessage]]:
     """
     Создание нода по отказу.
     """
