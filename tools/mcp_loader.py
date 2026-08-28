@@ -1,13 +1,13 @@
 import os
 
 from langchain_mcp_adapters.client import MultiServerMCPClient
-
+from langchain_core.tools import BaseTool
 from utils.logger import setup_logger
 
 logger = setup_logger()
 
 
-async def load_mcp_tools() -> dict:
+async def load_mcp_tools() -> list[BaseTool]:
     """
     Загружает инструменты из MCP.
     """
