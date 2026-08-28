@@ -11,7 +11,7 @@ loggerMCP = setup_logger(name="mcp", log_file="log/mcp.log")
 mcp_logger_callback = MCPToolCallbackHandler(loggerMCP)
 
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
     Обработка старта.
     """
@@ -24,7 +24,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
-async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """
     Обработка сообщений пользователя.
     """

@@ -24,7 +24,7 @@ os.environ["NO_PROXY"] = "localhost,127.0.0.1,::1,0.0.0.0"
 os.environ["no_proxy"] = "localhost,127.0.0.1,::1,0.0.0.0"
 
 if sys.platform == "win32":
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy()) # type: ignore[attr-defined]
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())  # type: ignore[attr-defined]
 
 logger = setup_logger()
 
