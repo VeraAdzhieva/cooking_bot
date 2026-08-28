@@ -3,10 +3,17 @@ from telegram.ext import ContextTypes
 
 from agents.graph import get_graph
 from utils.logger import setup_logger
+from utils.callbacks import MCPToolCallbackHandler
 
 logger = setup_logger()
+loggerMCP = setup_logger(name="mcp", log_file="log/mcp.log")
+
+mcp_logger_callback = MCPToolCallbackHandler(loggerMCP)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    Обработка старта.
+    """
     await update.message.reply_text(
         "Привет! 👩‍🍳 Я твой кулинарный помощник.\n\n"
         "Я умею:\n"
@@ -16,6 +23,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    Обработка сообщений пользователя.
+    """
     user_text = update.message.text
     chat_id = update.effective_chat.id
     
@@ -31,7 +41,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         logger.info(f"Обработка сообщения от чата {chat_id}: '{user_text}'")
         
         app = get_graph()
-        result = await app.ainvoke({"messages": context.chat_data["history"]})
+        result = await app.ainvoke({"messages": context.chat_data["history"]}, config={"callbacks": [mcp_logger_callback]})
         
         last_message = result["messages"][-1]
         context.chat_data["history"].append({"role": "assistant", "content": last_message.content})
@@ -41,4 +51,4 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
     except Exception as e:
         logger.error(f"Ошибка при обработке сообщения: {e}", exc_info=True)
-        await update.message.reply_text("😕 Произошла ошибка при обработке запроса. Попробуйте позже.")
+        await update.message.reply_text("Произошла ошибка при обработке запроса. Попробуйте позже.")

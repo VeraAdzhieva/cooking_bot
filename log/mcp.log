@@ -1,0 +1,40 @@
+2026-08-28 13:27:04 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:29:33 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:29:37 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:29:46 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:29:50 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:44:44 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:46:30 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:35 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:36 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:36 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:37 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:39 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:40 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:44 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:47:46 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:48:37 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:53:43 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:54:50 | INFO     | mcp | [MCP CALL] Инструмент: list_vault_files
+ Аргументы:
+{'directory': 'food/', 'limit': 200}
+2026-08-28 13:54:50 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:54:50 | INFO     | mcp | [MCP RESULT] Получен ответ от инструмента:
+content=[{'type': 'text', 'text': '{"files":["food/lunch/Стейки индейки с овощами.md","food/lunch/Фаршированные перцы.md","food/dinner/Греческий йогурт с чиа.md","food/dinner/Гречка с говядиной и овощами.md","food/dessert/Шоколадные кексы.md","food/breakfast/Бутерброды с ветчиной.md","food/breakfast/Каша монастырская овсянка.md"]}', 'id': 'lc_6c7fe0ef-ae5c-432c-a8be-a93d17a347dd'}] name='list_vaul
+... [ОБРЕЗАНО ДЛЯ ЛОГА, ПОЛНЫЙ ОТВЕТ УШЕЛ В LLM]
+2026-08-28 13:54:50 | INFO     | mcp | ------------------------------------------------------------
+2026-08-28 13:54:55 | INFO     | mcp | [MCP CALL] Инструмент: get_vault_files
+ Аргументы:
+{'format': 'json', 'paths': ['food/breakfast/Бутерброды с ветчиной.md', 'food/breakfast/Каша монастырская овсянка.md', 'food/lunch/Стейки индейки с овощами.md', 'food/lunch/Фаршированные перцы.md', 'food/dinner/Греческий йогурт с чиа.md', 'food/dinner/Гречка с говядиной и овощами.md', 'food/dessert/Шоколадные кексы.md']}
+2026-08-28 13:54:55 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:54:55 | INFO     | mcp | [MCP RESULT] Получен ответ от инструмента:
+content=[{'type': 'text', 'text': '{"results":[{"path":"food/breakfast/Бутерброды с ветчиной.md","content":"---\\ntitle: \\"Бутерброды с ветчиной\\"\\ntags: [recipe, breakfast]\\ncategory: \\"завтрак\\"\\nservings: 1\\ntotal_calories: 352\\ncalories_per_100g: 138\\ncreated: 2025-07-10\\n---\\n\\n# Бутерброды с ветчиной\\n\\n## Ингредиенты\\n- Хлеб — 2 куска по 45 г (90 г, 180 ккал)\\n- Ветчина — 5
+... [ОБРЕЗАНО ДЛЯ ЛОГА, ПОЛНЫЙ ОТВЕТ УШЕЛ В LLM]
+2026-08-28 13:54:55 | INFO     | mcp | ------------------------------------------------------------
+2026-08-28 13:55:32 | INFO     | mcp | [MCP CALL] Инструмент: create_vault_file
+ Аргументы:
+{'content': '---\ntype: meal_plan\ntarget_calories_per_person: 1800\npeople_count: 1\ndays: 1\ncreated: 2026-08-28\n---\n\n# 📅 План питания на 1 день (на 1 чел.)\n\nЦелевая калорийность: ~1800 ккал/день на человека\n\n---\n\n## День 1 (2026-08-28)\n\n### 🍳 Завтрак: Бутерброды с ветчиной\n\n**Порций на человека:** 1.5\n**Калорийность:** 528 ккал (на 1 чел.)\n\n**Примечание:** Рецепт рассчитан на 1 порцию (352 ккал). Готовьте ×1.5:\n- Хлеб — 3 куска по 45 г (135 г)\n- Ветчина — 75 г\n- Соленые огурцы — 1.5 шт (~75 г)\n- Халапеньо — 3 кружочка (~7 г)\n- Помидор — 45 г\n- Горчица — 15 г\n- Сыр — 30 г\n\n---\n\n### 🍲 Обед: Стейки индейки с овощами\n\n**Порций на человека:** 2\n**Калорийность:** 582 ккал (на 1 чел.)\n\n**Примечание:** Рецепт рассчитан на 1 порцию (291 ккал). Готовьте ×2:\n- Филе грудки индейки — 450 г\n- Кабачок — 160 г\n- Лук репчатый — 50 г\n- Морковь — 60 г\n- Болгарский перец — 100 г\n\n---\n\n### 🥗 Ужин: Гречка с говядиной и овощами\n\n**Порций на человека:** 1.5\n**Калорийность:** 785 ккал (на 1 чел.)\n\n**Примечание:** Рецепт рассчитан на 4 порции (2093 ккал, ~523 ккал/порция). Для 1.5 порций готовьте ×0.375 от исходного рецепта:\n- Гречка — 56 г\n- Говядина мякоть — 188 г\n- Морковь — 56 г\n- Лук — 56 г\n- Болгарский перец — 38 г\n- Помидор — 56 г\n- Масло подсолнечное — ~0.6 ст.л. (6 г)\n- Соль, перец — по вкусу\n\n---\n\n## 📊 Итого за День 1: 1895 ккал (~1895 ккал на человека)\n\n| Приём пищи | Блюдо | Ккал |\n|---|---|---|\n| 🍳 Завтрак | Бутерброды с ветчиной (×1.5) | 528 |\n| 🍲 Обед | Стейки индейки с овощами (×2) | 582 |\n| 🥗 Ужин | Гречка с говядиной и овощами (×1.5) | 785 |\n| **Итого** | | **1895** |\n\n---\n\n## 💡 Рекомендации по закупкам и готовке\n\n### Список продуктов на день (1 чел.)\n- **Хлеб** — 135 г\n- **Ветчина** — 75 г\n- **Сыр** — 30 г\n- **Соленые огурцы** — 1.5 шт\n- **Помидоры** — ~100 г (45 + 56)\n- **Горчица** — 15 г\n- **Халапеньо** — 3 кружочка\n- **Филе грудки индейки** — 450 г\n- **Кабачок** — 160 г\n- **Лук репчатый** — ~106 г (50 + 56)\n- **Морковь** — ~116 г (60 + 56)\n- **Болгарский перец** — ~138 г (100 + 38)\n- **Говядина мякоть** — 188 г\n- **Гречка** — 56 г\n- **Масло подсолнечное** — 6 г\n\n### Советы\n1. **Гречку с говядиной** удобно приготовить заранее — она хорошо хранится и разогревается.\n2. **Стейки индейки** готовятся быстро (~15 мин), можно сделать прямо перед обедом.\n3. **Бутерброды** — самый быстрый приём пищи, 5 минут в грильнице.\n4. Овощи (лук, морковь, перец) можно купить с запасом — они используются в нескольких блюдах.\n', 'path': 'menues/План_питания_1дн_1чел_2026-08-28.md'}
+2026-08-28 13:55:32 | INFO     | mcp.client.streamable_http | Negotiated protocol version: 2025-11-25
+2026-08-28 13:55:32 | INFO     | mcp | [MCP RESULT] Получен ответ от инструмента:
+content=[{'type': 'text', 'text': 'OK', 'id': 'lc_33148c22-f32c-4312-803d-921113d768ff'}] name='create_vault_file' tool_call_id='call_271e21596129491d86a47b22'
+2026-08-28 13:55:32 | INFO     | mcp | ------------------------------------------------------------

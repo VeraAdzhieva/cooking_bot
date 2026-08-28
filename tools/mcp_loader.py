@@ -8,7 +8,6 @@ async def load_mcp_tools():
     """
     Загружает инструменты из MCP.
     """
-
     logger.info("Загрузка инструментов MCP")
     mcp_config = {
         "my_local_mcp": {
@@ -21,5 +20,4 @@ async def load_mcp_tools():
     client = MultiServerMCPClient(mcp_config)
     all_tools = await client.get_tools()
     logger.info(f"Загружено инструментов из MCP: {len(all_tools)}")
-    
     return all_tools
