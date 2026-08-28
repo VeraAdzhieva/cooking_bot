@@ -7,7 +7,7 @@ from utils.logger import setup_logger
 logger = setup_logger()
 
 
-async def load_mcp_tools():
+async def load_mcp_tools() -> dict:
     """
     Загружает инструменты из MCP.
     """

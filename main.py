@@ -24,12 +24,12 @@ os.environ["NO_PROXY"] = "localhost,127.0.0.1,::1,0.0.0.0"
 os.environ["no_proxy"] = "localhost,127.0.0.1,::1,0.0.0.0"
 
 if sys.platform == "win32":
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy()) # type: ignore[attr-defined]
 
 logger = setup_logger()
 
 
-async def async_init():
+async def async_init() -> tuple[str | None, str | None]:
     """
     Инициализация.
     """
@@ -38,7 +38,7 @@ async def async_init():
     return os.getenv("PROXY_URL"), os.getenv("TELEGRAM_BOT_API")
 
 
-def main():
+def main() -> None:
     proxy_url, token_t = asyncio.run(async_init())
 
     request = HTTPXRequest(proxy=proxy_url) if proxy_url else HTTPXRequest()

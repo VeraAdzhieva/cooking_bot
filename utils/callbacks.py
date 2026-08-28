@@ -1,7 +1,9 @@
 import json
 import logging
-from langchain_core.callbacks import BaseCallbackHandler
 from typing import Any
+
+from langchain_core.callbacks import BaseCallbackHandler
+
 
 class MCPToolCallbackHandler(BaseCallbackHandler):
     """

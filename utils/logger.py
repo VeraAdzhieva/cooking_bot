@@ -2,7 +2,14 @@ import logging
 import sys
 
 
-def setup_logger(name="bot", log_file="log/bot.log", level=logging.INFO):
+def setup_logger(
+    name: str = "bot",
+    log_file: str = "log/bot.log",
+    level: int = logging.INFO,
+) -> logging.Logger:
+    """
+    Настройка логгера. Сохранение в файл.
+    """
     logger = logging.getLogger(name)
     logger.setLevel(level)
 
