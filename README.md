@@ -58,15 +58,15 @@ Obsidian Хранилище/
 ### 4. Настройка переменных окружения
 Создать файл .env в корне проекта на основе .env.example:
 ```env
-TELEGRAM_BOT_API=ваш_токен_бота
+TELEGRAM_BOT_API=токен_бота
 PROXY_URL=socks5://user:password@host:port
 
-MCP_API_KEY=ваш_ключ_для_mcp
+MCP_API_KEY=ключ_для_mcp
 MCP_HOST=http://localhost:порт_или_адрес_mcp_сервера
 
-LLM_HOST=https://api.your-llm-provider.com/v1
+LLM_HOST=https://api.llm-provider.com/v1
 LLM_MODEL=qwen
-LLM_API_KEY=ваш_api_ключ_для_llm
+LLM_API_KEY=api_ключ_для_llm
 ```
 
 ### 5. Запуск бота
