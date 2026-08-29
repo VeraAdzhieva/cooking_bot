@@ -52,26 +52,22 @@ Obsidian Хранилище/
 
 ### 3. Установка и настройка плагина MCP в Obsidian
 - Подключить плагин MCP Connector в Obsidian
-- В Settings (Настройки) → Community plugins (Сторонние плагины) найти плагин MCP Connector.
+- В Settings (Настройки) → Community plugins (Сторонние плагины) → найти плагин MCP Connector.
 - Установить и включить плагин.
 
 ### 4. Настройка переменных окружения
 Создать файл .env в корне проекта на основе .env.example:
 
-***Telegram Bot***
-TELEGRAM_BOT_API=ваш_токен_бота
+***TELEGRAM_BOT_API***=ваш_токен_бота
 
-***Proxy (для обхода блокировок Telegram)***
-PROXY_URL=socks5://user:password@host:port
+***PROXY_URL***=socks5://user:password@host:port
 
-***MCP Server***
-MCP_API_KEY=ваш_ключ_для_mcp
-MCP_HOST=http://localhost:порт_или_адрес_mcp_сервера
+***MCP_API_KEY***=ваш_ключ_для_mcp
+***MCP_HOST***=http://localhost:порт_или_адрес_mcp_сервера
 
-***LLM Configuration***
-LLM_HOST=https://api.your-llm-provider.com/v1
-LLM_MODEL=qwen
-LLM_API_KEY=ваш_api_ключ_для_llm
+***LLM_HOST***=https://api.your-llm-provider.com/v1
+***LLM_MODEL***=qwen
+***LLM_API_KEY***=ваш_api_ключ_для_llm
 
 ### 5. Запуск бота
 ```bash
