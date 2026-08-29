@@ -58,17 +58,17 @@ Obsidian Хранилище/
 ### 4. Настройка переменных окружения
 Создать файл .env в корне проекта на основе .env.example:
 
-# Telegram Bot
+***Telegram Bot***
 TELEGRAM_BOT_API=ваш_токен_бота
 
-# Proxy (для обхода блокировок Telegram)
+***Proxy (для обхода блокировок Telegram)***
 PROXY_URL=socks5://user:password@host:port
 
-# MCP Server
+***MCP Server***
 MCP_API_KEY=ваш_ключ_для_mcp
 MCP_HOST=http://localhost:порт_или_адрес_mcp_сервера
 
-# LLM Configuration
+***LLM Configuration***
 LLM_HOST=https://api.your-llm-provider.com/v1
 LLM_MODEL=qwen
 LLM_API_KEY=ваш_api_ключ_для_llm
