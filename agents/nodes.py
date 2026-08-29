@@ -1,4 +1,5 @@
 import os
+from datetime import datetime, timezone, timedelta
 from typing import Callable, Literal, Sequence
 
 from langchain_core.language_models import BaseChatModel
@@ -8,6 +9,14 @@ from langgraph.graph import MessagesState
 from langgraph.graph.state import CompiledStateGraph
 from langgraph.prebuilt import create_react_agent
 from pydantic import BaseModel
+
+def get_moscow_datetime() -> tuple[str, str]:
+    """
+    Возвращает текущие дату и время в московском часовом поясе (UTC+3).
+    """
+    msk_tz = timezone(timedelta(hours=3))
+    now = datetime.now(msk_tz)
+    return now.strftime("%Y-%m-%d"), now.strftime("%H-%M")
 
 
 def load_prompt(filename: str) -> str:
@@ -69,7 +78,13 @@ def create_planner_node(
     """
     Создание нода по планированию меню.
     """
-    prompt = load_prompt("planner_agent.txt")
+    prompt_template = load_prompt("planner_agent.txt")
+    current_date, current_time = get_moscow_datetime()
+    prompt = prompt_template.format(
+        current_datetime=f"{current_date} {current_time}",
+        current_date=current_date,
+        current_time=current_time,
+    )
     return create_react_agent(llm, tools, prompt=prompt)
 
 
