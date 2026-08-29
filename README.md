@@ -36,12 +36,45 @@ cd <имя-папки-проекта>
 poetry install
 ```
 
-### 2. Запуск бота
+### 2. Подготовка структуры папок в Obsidian
+Перед запуском бота **обязательно** создать базовую структуру папок в корне вашего хранилища Obsidian. Бот использует эти пути для сохранения и поиска данных.
+
+Создайте следующие директории:
+```text
+Ваше Obsidian Хранилище/
+├── food/                  # Папка для всех рецептов
+│   ├── breakfast/         # Завтраки
+│   ├── lunch/             # Обеды
+│   ├── dinner/            # Ужины
+│   ├── dessert/           # Десерты
+│   └── salad/             # Салаты
+└── menues/                # Папка для планов питания (меню на день/неделю)
+```
+
+### 3. Установка и настройка плагина MCP в Obsidian
+Подключить плагин MCP Connector в Obsidian
+В Settings (Настройки) → Community plugins (Сторонние плагины) найти плагин MCP Connector.
+Установить и включить плагин.
+
+### 4. Настройка переменных окружения
+Создайте файл .env в корне проекта на основе .env.example и заполните его:
+
+# Telegram Bot
+TELEGRAM_BOT_API=ваш_токен_бота
+
+# Proxy (для обхода блокировок Telegram)
+PROXY_URL=socks5://user:password@host:port
+
+# MCP Server
+MCP_API_KEY=ваш_ключ_для_mcp
+MCP_HOST=http://localhost:порт_или_адрес_mcp_сервера
+
+# LLM Configuration
+LLM_HOST=https://api.your-llm-provider.com/v1
+LLM_MODEL=qwen
+LLM_API_KEY=ваш_api_ключ_для_llm
+
+### 5. Запуск бота
 ```bash
 poetry run python main.py
 ```
-
-## Технические особенности
-- **Обход прокси для localhost:** В main.py реализован принудительный сброс переменных окружения прокси (HTTP_PROXY и т.д.) и установка NO_PROXY="localhost,127.0.0.1". Это критически важно для того, чтобы LangGraph мог подключиться к локальному MCP-серверу Obsidian, даже если для Telegram настроен глобальный прокси.
-- **Windows Event Loop:** Для корректной работы asyncio и MCP на Windows в main.py принудительно устанавливается WindowsSelectorEventLoopPolicy.
-- **Доступность инструментов:** В текущей архитектуре (graph.py) массив all_tools передается всем исполнительным узлам (recipes, planner). Фильтрация того, какой инструмент использовать, происходит на уровне промпта самого агента, а не на уровне графа.
