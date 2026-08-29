@@ -136,3 +136,6 @@ LLM_API_KEY=api_ключ_для_llm
 ```bash
 poetry run python main.py
 ```
+
+## Демонстрация работы
+![Демонстрация работы бота](pick/demo.png)
