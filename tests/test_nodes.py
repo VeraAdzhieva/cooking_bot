@@ -4,6 +4,9 @@ from agents.nodes import RouterDecision, create_router_node
 
 
 def test_create_router_node_success() -> None:
+    """
+    Проверяет успешный сценарий router_node.
+    """
     mock_llm = MagicMock()
     mock_router_llm = MagicMock()
     mock_llm.with_structured_output.return_value = mock_router_llm
@@ -24,6 +27,9 @@ def test_create_router_node_success() -> None:
 
 
 def test_create_router_node_reject() -> None:
+    """
+    Проверяет сценарий отклонения запроса пользователя.
+    """
     mock_llm = MagicMock()
     mock_router_llm = MagicMock()
     mock_llm.with_structured_output.return_value = mock_router_llm

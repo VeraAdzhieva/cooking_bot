@@ -6,6 +6,9 @@ import pytest
 @pytest.mark.asyncio
 @patch("bot.handlers.get_graph")
 async def test_handle_message_success(mock_get_graph: MagicMock) -> None:
+    """
+    Проверяет успешный сценарий обработки сообщения пользователя.
+    """
     from bot.handlers import handle_message
 
     update = MagicMock()
@@ -36,6 +39,9 @@ async def test_handle_message_success(mock_get_graph: MagicMock) -> None:
 @pytest.mark.asyncio
 @patch("bot.handlers.get_graph")
 async def test_handle_message_exception(mock_get_graph: MagicMock) -> None:
+    """
+    Проверяет исключения при обработке сообщения.
+    """
     from bot.handlers import handle_message
 
     update = MagicMock()
