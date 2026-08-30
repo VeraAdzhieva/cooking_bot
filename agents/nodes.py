@@ -33,6 +33,7 @@ class RouterDecision(BaseModel):
     """
     Структура ответа роутера, валидируемая через Pydantic.
     """
+
     intent: list[Literal["recipes", "planner", "reject"]]
     reason: str
 
